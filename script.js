@@ -8,7 +8,7 @@ function setup() {
   createCanvas(1280, 720);
 
   // Kleur de achtergrond blauw, zodat je het kunt zien
-  background('blue');
+  background('purple');
 }
 
 
@@ -19,8 +19,14 @@ function setup() {
  */
 function draw() {
   // stel vulkleur in
-  fill(100, 100, 255);
+  fill(255, 255, 255);
 
-  // teken een cirkel
-  ellipse(50,50,80,80);
+  //teken drie vlakken voor de getallen//
+  rect(500,150,200,300);
+  rect(150,150,200,300);
+  rect(850, 150, 200, 300);
+
+  //button//
+  rect(400, 500, 400, 100);
+  
 }
